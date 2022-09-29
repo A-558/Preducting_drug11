@@ -21,7 +21,7 @@ def predict():
 
     #output = prediction[0]
  
-    return render_template('index.html', prediction_text='The drug which we has to give to the patient is  {}'.format(prediction))
+    return render_template('index2.html', prediction_text='The drug which we has to give to the patient is  {}'.format(prediction))
 
 
 if __name__ == "__main__":
